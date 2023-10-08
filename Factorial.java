@@ -18,7 +18,7 @@ public class Factorial {
 
         //logic using while loop
         int i=0;
-        while(i<5){
+        while(i<num){
             fact = fact*(num-i);
             i++;
         }
@@ -32,13 +32,13 @@ public class Factorial {
                 fact = fact * (num-i);
                 i++;
             }
-            while(i<5);
+            while(i<num);
             */
 
 
         
         //logic of factorial usin for loop
-      /* for(int i =0; i<5; i++){
+      /* for(int i =0; i<num; i++){
             fact = fact * (num-i);
         }
         */
